@@ -74,23 +74,33 @@ body {
 }
 
 /* Minhas costumizações */
-
+.Css_hover:hover{
+  color: rgb(230, 148, 41);
+  font-weight: bold;
+  animation-duration: 1s;
+}
 .Css_textJ{
   text-align: justify;
 }
 .Css_fonteCormorantGaramond{
   font-family: "Cormorant Garamond";
 }
+#mainHeader {
+  transition: top 0.4s ease;
+}
+/* animações css */
 .animabtn-cima-baixo{
    animation: animabtn 1s alternate  infinite ease-in-out ;
    
    
 }
+
 @keyframes animabtn {
  100%{
   transform: translateY(3px);
  }
 }
+
 
 
 /* RESPONSIVE CSS
